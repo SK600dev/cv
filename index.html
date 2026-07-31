@@ -1,250 +1,265 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Резюме - Тимофей Федоров | Разработка</title>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Резюме</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-    body {
-        font-family: 'Inter', sans-serif;
-        background-color: #fff;
-        color: #222;
-        margin: 0;
-        padding: 20px;
-        line-height: 1.6;
-    }
-
-    .cv-container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 30px;
-        border: 1px solid #ddd;
-        border-radius: 6px;
-        background-color: #fafafa;
-    }
-
-    header {
-        border-bottom: 1px solid #ddd;
-        padding-bottom: 20px;
-        margin-bottom: 25px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    header > div:first-child {
-        max-width: 60%;
-    }
-
-    h1 {
-        font-weight: 600;
-        font-size: 2rem;
-        margin: 0 0 5px 0;
-    }
-
-    p.subtitle {
-        font-weight: 400;
-        color: #666;
-        margin: 0;
-    }
-
-    .contacts {
-        font-size: 0.9rem;
-        color: #555;
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-        text-align: right;
-        min-width: 200px;
-    }
-
-    .contacts a {
-        color: #222;
-        text-decoration: none;
-    }
-
-    .contacts a:hover {
-        text-decoration: underline;
-    }
-
-    main section {
-        margin-bottom: 30px;
-    }
-
-    h2 {
-        font-weight: 600;
-        font-size: 1.25rem;
-        border-bottom: 2px solid #ccc;
-        padding-bottom: 5px;
-        margin-bottom: 15px;
-        color: #111;
-    }
-
-    ul {
-        padding-left: 20px;
-        margin-top: 0;
-    }
-
-    .skill-badge {
-        display: inline-block;
-        padding: 4px 10px;
-        font-size: 0.875rem;
-        color: #444;
-        background-color: #e0e0e0;
-        border-radius: 12px;
-        margin: 0 6px 6px 0;
-        user-select: none;
-    }
-
-    .job-item {
-        border-left: 3px solid #888;
-        padding-left: 15px;
-        margin-bottom: 20px;
-    }
-
-    .job-item h3 {
-        margin: 0 0 5px 0;
-        font-weight: 600;
-    }
-
-    .job-item time {
-        font-size: 0.85rem;
-        color: #666;
-    }
-
-    .project-item {
-        border-left: 3px solid #bbb;
-        padding-left: 12px;
-        margin-bottom: 15px;
-    }
-
-    .project-item h4 {
-        margin: 0 0 5px 0;
-        font-weight: 600;
-    }
-
-    a.external-link {
-        font-size: 0.9rem;
-        color: #0077cc;
-        text-decoration: none;
-    }
-
-    a.external-link:hover {
-        text-decoration: underline;
-    }
-
-    @media print {
         body {
-            background-color: #fff !important;
-            color: #000 !important;
+            font-family: 'Inter', sans-serif;
+            background-color: #fff;
+            color: #222;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
         }
+
         .cv-container {
-            border: none !important;
-            background-color: #fff !important;
-            padding: 0 !important;
-            box-shadow: none !important;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            background-color: #fafafa;
         }
-        header, main section {
-            page-break-inside: avoid;
+
+        header {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
         }
+
+        header>div:first-child {
+            max-width: 60%;
+        }
+
+        h1 {
+            font-weight: 600;
+            font-size: 2rem;
+            margin: 0 0 5px 0;
+        }
+
+        p.subtitle {
+            font-weight: 400;
+            color: #666;
+            margin: 0;
+        }
+
         .contacts {
-            text-align: left !important;
-            min-width: auto !important;
+            font-size: 0.9rem;
+            color: #555;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            text-align: right;
+            min-width: 200px;
         }
-        a {
-            color: black !important;
-            text-decoration: underline !important;
+
+        .contacts a {
+            color: #222;
+            text-decoration: none;
         }
-    }
-</style>
+
+        .contacts a:hover {
+            text-decoration: underline;
+        }
+
+        main section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-weight: 600;
+            font-size: 1.25rem;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            color: #111;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 0;
+        }
+
+        .skill-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            font-size: 0.875rem;
+            color: #444;
+            background-color: #e0e0e0;
+            border-radius: 12px;
+            margin: 0 6px 6px 0;
+            user-select: none;
+        }
+
+        .job-item {
+            border-left: 3px solid #888;
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        .job-item h3 {
+            margin: 0 0 5px 0;
+            font-weight: 600;
+        }
+
+        .job-item time {
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .project-item {
+            border-left: 3px solid #bbb;
+            padding-left: 12px;
+            margin-bottom: 15px;
+        }
+
+        .project-item h4 {
+            margin: 0 0 5px 0;
+            font-weight: 600;
+        }
+
+        a.external-link {
+            font-size: 0.9rem;
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        a.external-link:hover {
+            text-decoration: underline;
+        }
+
+        @media print {
+            body {
+                background-color: #fff !important;
+                color: #000 !important;
+            }
+
+            .cv-container {
+                border: none !important;
+                background-color: #fff !important;
+                padding: 0 !important;
+                box-shadow: none !important;
+            }
+
+            header,
+            main section {
+                page-break-inside: avoid;
+            }
+
+            .contacts {
+                text-align: left !important;
+                min-width: auto !important;
+            }
+
+            a {
+                color: black !important;
+                text-decoration: underline !important;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
-<div class="cv-container">
+    <div class="cv-container">
 
-    <header>
-        <div>
-            <h1>Тимофей Федоров</h1>
-        </div>
-        <div class="contacts">
-            <div>Email: <a href="mailto:kresor12345@gmail.com">kresor12345@gmail.com</a></div>
-            <div>Телефон: +7 (951) 179-73-79</div>
-            <div>Телеграм: <a href="https://t.me/pardl" target ="_blank" rel="noopener noreferrer">@pardl </a></div>
-            <div>GitHub: <a href="https://github.com/SK600dev" target="_blank" rel="noopener noreferrer">github.com/SK600dev</a></div>
-        </div>
-    </header>
-
-    <main>
-        <section>
-            <h2>Профиль</h2>
-            <p>Студент направления "Прикладная математика и информатика". Основной язык программирование С++.</p>
-        </section>
-
-        <section>
-            <h2>Технологический стек</h2>
+        <header>
             <div>
-                <span class="skill-badge">С++</span>
-                <span class="skill-badge">Python</span>
-                <span class="skill-badge">SQL</span>
-                <span class="skill-badge">Git</span>
-                <span class="skill-badge">LaTeX</span>
+                <h1>Федоров Тимофей Павлович</h1>
             </div>
-        </section>
-
-        <section>
-            <h2>Образование</h2>
-            <div>
-                <h3>НИУ "Высшая школа экономики" СПб</h3>
-                <time>2025 – 2029 (Планируемое)</time>
-                <p>Специальность: Прикладная математика и информатика (Бакалавр)</p>
+            <div class="contacts">
+                <div>Email: <a href="mailto:kresor12345@gmail.com">kresor12345@gmail.com</a></div>
+                <div>Телефон: +7 (951) 179-73-79</div>
+                <div>Телеграм: <a href="https://t.me/pardl" target="_blank" rel="noopener noreferrer">@pardl </a></div>
+                <div>GitHub: <a href="https://github.com/SK600dev" target="_blank"
+                        rel="noopener noreferrer">github.com/SK600dev</a></div>
             </div>
-        </section>
+        </header>
 
-        <section>
-            <h2>Языки</h2>
-            <ul>
-                <li>Русский — Родной</li>
-                <li>Английский — Уровень B1</li>
-            </ul>
-        </section>
+        <main>
+            <section>
+                <p>Студент направления "Прикладная математика и информатика".</p>
+            </section>
 
-        <section>
-            <h2>Опыт Работы</h2>
-            <div class="job-item">
-                <h3>Технический специалист</h3>
-                <time>2025 – Наст. время</time>
-                <p>Онлайн школа "Alles"</p>
+            <section>
+                <h2>Технологический стек</h2>
+                <div>
+                    <span class="skill-badge">С++</span>
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">SQL</span>
+                    <span class="skill-badge">Git</span>
+                    <span class="skill-badge">LaTeX</span>
+                </div>
+            </section>
+
+            <section>
+                <h2>Образование</h2>
+                <div>
+                    <h3>НИУ "Высшая школа экономики" СПб</h3>
+                    <time>2025 – 2029</time>
+                    <p>Специальность: Прикладная математика и информатика</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Языки</h2>
                 <ul>
-                    <li>Обеспечение корректной работы чат-ботов (SaleBot) в Телеграм и их техническое сопровождение.</li>
-                    <li>Внедрил сбор аналитики внутри чат-ботов.</li>
-                    <li>Администрирование ботов: публикация рассылок, обновление аватарок, управление привязкой ботов к сервисам.</li>
-                    <li>Взаимодействие с API сервиса AmoCRM.</li>
+                    <li>Русский — Родной</li>
+                    <li>Английский — Уровень B1</li>
                 </ul>
-            </div>
-        </section>
+            </section>
 
-        <section>
-            <h2>Проекты и Достижения</h2>
-            <div class="project-item">
-                <h4>Олимпиадные достижения</h4>
-                <p>Участник регионального этапа ВсОШ по информатике/математике (11 класс). Участник заключительного этапа олимпиад Физтех, БИБН, Финансовая олимпиада, Турнир Ломоносова, Газпром, Изумруд по математике.</p>
-            </div>
-            <div class="project-item">
-                <h4>ICPC Northwestern Russia 2026</h4>
-                <p>Участник 1/4 финала </p>
-                <p><a href="https://github.com/SK600dev/CV/blob/main/docs/2026-ICPC%20Northwestern%20Russia-PLACE.pdf" target="_blank" class="external-link">Просмотреть сертификат PDF</a></p>
-            </div>
-            <div class="project-item">
-                <h4>Клиент-серверное десктоп приложение "Трутень" на С++</h4>
-                <p>Командная разработка приложения для записи на занятия в спортивные залы университета. Бэкэнд написан на Crow, клиент на Qt</p>
-                <p><a href="https://github.com/ilovemoloko/Truten" target="_blank" class="external-link">Ссылка на репозиторий</a></p>
-            </div>
-        </section>
-    </main>
+            <section>
+                <h2>Опыт Работы</h2>
+                <div class="job-item">
+                    <h3>Технический специалист</h3>
+                    <time>2025 – Наст. время</time>
+                    <p>Онлайн школа "Alles"</p>
+                    <ul>
+                        <li>Обеспечение корректной работы чат-ботов (SaleBot) в Телеграм и их техническое сопровождение.
+                        </li>
+                        <li>Внедрил сбор аналитики внутри чат-ботов.</li>
+                        <li>Администрирование ботов: публикация рассылок, обновление аватарок, управление привязкой
+                            ботов к сервисам.</li>
+                        <li>Взаимодействие с API сервиса AmoCRM.</li>
+                    </ul>
+                </div>
+            </section>
 
-</div>
+            <section>
+                <h2>Проекты и Достижения</h2>
+                <div class="project-item">
+                    <h4>Олимпиадные достижения</h4>
+                    <p>Участник регионального этапа ВсОШ по информатике/математике (11 класс). Участник заключительного
+                        этапа олимпиад Физтех, БИБН, Финансовая олимпиада, Турнир Ломоносова, Газпром, Изумруд по
+                        математике.</p>
+                </div>
+                <div class="project-item">
+                    <h4>ICPC Northwestern Russia 2026</h4>
+                    <p>Участник 1/4 финала </p>
+                    <p><a href="https://github.com/SK600dev/CV/blob/main/docs/2026-ICPC%20Northwestern%20Russia-PLACE.pdf"
+                            target="_blank" class="external-link">Просмотреть сертификат PDF</a></p>
+                </div>
+                <div class="project-item">
+                    <h4>Клиент-серверное десктоп приложение "Трутень" на С++</h4>
+                    <p>Командная разработка приложения для записи на занятия в спортивные залы университета. Бэкэнд
+                        написан на Crow, клиент на Qt</p>
+                    <p><a href="https://github.com/ilovemoloko/Truten" target="_blank" class="external-link">Ссылка на
+                            репозиторий</a></p>
+                </div>
+            </section>
+        </main>
+
+    </div>
 
 </body>
+
 </html>
