@@ -136,6 +136,11 @@
             text-decoration: underline;
         }
 
+        @page {
+            size: A4;
+            margin: 8mm 12mm;
+        }
+
         @media print {
             body {
                 background-color: #fff !important;
@@ -145,13 +150,21 @@
             .cv-container {
                 border: none !important;
                 background-color: #fff !important;
-                padding: 0 !important;
+                padding: 15px !important;
                 box-shadow: none !important;
             }
 
             header,
             main section {
                 page-break-inside: avoid;
+            }
+
+            main section {
+                margin-bottom: 14px !important;
+            }
+
+            main section:last-child {
+                margin-bottom: 0 !important;
             }
 
             .contacts {
@@ -196,7 +209,6 @@
                     <span class="skill-badge">Python</span>
                     <span class="skill-badge">SQL</span>
                     <span class="skill-badge">Git</span>
-                    <span class="skill-badge">LaTeX</span>
                 </div>
             </section>
 
@@ -212,7 +224,6 @@
             <section>
                 <h2>Языки</h2>
                 <ul>
-                    <li>Русский — Родной</li>
                     <li>Английский — Уровень B1</li>
                 </ul>
             </section>
@@ -221,7 +232,6 @@
                 <h2>Опыт Работы</h2>
                 <div class="job-item">
                     <h3>Технический специалист</h3>
-                    <time>2025 – Наст. время</time>
                     <p>Онлайн школа "Alles"</p>
                     <ul>
                         <li>Обеспечение корректной работы чат-ботов (SaleBot) в Телеграм и их техническое сопровождение.
@@ -249,7 +259,7 @@
                             target="_blank" class="external-link">Просмотреть сертификат PDF</a></p>
                 </div>
                 <div class="project-item">
-                    <h4>Клиент-серверное десктоп приложение "Трутень" на С++</h4>
+                    <h4>Клиент-серверное десктоп приложение на С++</h4>
                     <p>Командная разработка приложения для записи на занятия в спортивные залы университета. Бэкэнд
                         написан на Crow, клиент на Qt</p>
                     <p><a href="https://github.com/ilovemoloko/Truten" target="_blank" class="external-link">Ссылка на
